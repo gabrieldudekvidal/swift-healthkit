@@ -1,10 +1,3 @@
-//
-//  HealthKitApp.swift
-//  HealthKit
-//
-//  Created by Gabriel Vidal on 2026-07-05.
-//
-
 import SwiftUI
 
 @main

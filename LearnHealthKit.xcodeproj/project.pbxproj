@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		850B04EE2FF9E282000D572B /* HealthKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850B04EE2FF9E282000D572B /* LearnHealthKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnHealthKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		850B04EF2FF9E282000D572B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				850B04EE2FF9E282000D572B /* HealthKit.app */,
+				850B04EE2FF9E282000D572B /* LearnHealthKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		850B04ED2FF9E282000D572B /* HealthKit */ = {
+		850B04ED2FF9E282000D572B /* LearnHealthKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 850B04F92FF9E283000D572B /* Build configuration list for PBXNativeTarget "HealthKit" */;
+			buildConfigurationList = 850B04F92FF9E283000D572B /* Build configuration list for PBXNativeTarget "LearnHealthKit" */;
 			buildPhases = (
 				850B04EA2FF9E282000D572B /* Sources */,
 				850B04EB2FF9E282000D572B /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				850B04F02FF9E282000D572B /* HealthKit */,
 			);
-			name = HealthKit;
+			name = LearnHealthKit;
 			packageProductDependencies = (
 			);
 			productName = HealthKit;
-			productReference = 850B04EE2FF9E282000D572B /* HealthKit.app */;
+			productReference = 850B04EE2FF9E282000D572B /* LearnHealthKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 850B04E92FF9E282000D572B /* Build configuration list for PBXProject "HealthKit" */;
+			buildConfigurationList = 850B04E92FF9E282000D572B /* Build configuration list for PBXProject "LearnHealthKit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				850B04ED2FF9E282000D572B /* HealthKit */,
+				850B04ED2FF9E282000D572B /* LearnHealthKit */,
 			);
 		};
 /* End PBXProject section */
@@ -251,11 +251,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthKit/HealthKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4989Q6ZAXL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app reads your step count to display your daily activity";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app records your water intake";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,11 +286,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthKit/HealthKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4989Q6ZAXL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app reads your step count to display your daily activity";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app records your water intake";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		850B04E92FF9E282000D572B /* Build configuration list for PBXProject "HealthKit" */ = {
+		850B04E92FF9E282000D572B /* Build configuration list for PBXProject "LearnHealthKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				850B04F72FF9E283000D572B /* Debug */,
@@ -322,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		850B04F92FF9E283000D572B /* Build configuration list for PBXNativeTarget "HealthKit" */ = {
+		850B04F92FF9E283000D572B /* Build configuration list for PBXNativeTarget "LearnHealthKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				850B04FA2FF9E283000D572B /* Debug */,
